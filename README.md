@@ -89,7 +89,7 @@ A comprehensive Next.js 14 application that analyzes contract clauses against Mo
 <img src="screenshots/Suggested-Rewrite-and-Legal-guidance.png" alt="Legal Guidance" width="800"/>
 
 ### Multi-language Support (Darija)
-<img src="screenshots/darija-support-for-illiterates.png" alt="Darija Support" width="800"/>
+<img src="screenshots/darija-support.png" alt="Darija Support" width="800"/>
 
 </div>
 
