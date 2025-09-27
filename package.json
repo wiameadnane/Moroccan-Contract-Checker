@@ -1,0 +1,45 @@
+{
+  "name": "moroccan-contract-checker",
+  "version": "1.0.0",
+  "description": "AI-powered Moroccan contract compliance checker with RAG integration",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "morocco",
+    "contract",
+    "legal",
+    "ai",
+    "rag",
+    "nextjs",
+    "openai"
+  ],
+  "author": "Moroccan Contract Checker Team",
+  "dependencies": {
+    "@types/multer": "^2.0.0",
+    "@types/pdf-parse": "^1.1.5",
+    "multer": "^2.0.2",
+    "next": "15.5.3",
+    "openai": "^5.20.2",
+    "pdf-parse": "^1.1.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
