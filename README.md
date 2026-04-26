@@ -1,5 +1,7 @@
 # Moroccan Contract Checker
 
+🏆 Built for the **Cursor Hackathon on september  14th 2025 in Casablanca, Morocco**
+
 A comprehensive Next.js 14 application that analyzes contract clauses against Moroccan law using AI with a built-in legal knowledge base. Built for the **Cursor Hackathon on september  14th 2025 in Casablanca, Morocco**.
 
 
