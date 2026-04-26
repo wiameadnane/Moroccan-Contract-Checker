@@ -8,7 +8,7 @@ A comprehensive Next.js 14 application that analyzes contract clauses against Mo
 </div>
 
 
-## 🚀 Features
+## Features
 
 - **Multi-language Support**: Analyze contracts in Arabic, French, English, or Darija
 - **PDF Processing**: Upload and extract text from PDF contracts (up to 10MB)
@@ -17,7 +17,7 @@ A comprehensive Next.js 14 application that analyzes contract clauses against Mo
 - **Responsive Design**: Beautiful, mobile-friendly interface with Tailwind CSS
 - **Real-time Results**: Instant analysis with severity levels, categories, and suggestions
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
@@ -26,12 +26,12 @@ A comprehensive Next.js 14 application that analyzes contract clauses against Mo
 - **PDF Processing**: pdf-parse
 - **Deployment**: Ready for Vercel, Netlify, or any Node.js hosting
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+ 
 - Azure OpenAI API key and deployment
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -64,7 +64,7 @@ A comprehensive Next.js 14 application that analyzes contract clauses against Mo
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🎯 Usage
+## Usage
 
 1. **Choose Output Language**: Select Arabic, French, English, or Darija
 2. **Input Contract Text**: Either paste text directly or upload a PDF file
@@ -93,7 +93,7 @@ A comprehensive Next.js 14 application that analyzes contract clauses against Mo
 
 </div>
 
-## 🧠 Legal Knowledge Base
+## Legal Knowledge Base
 
 The application includes a comprehensive legal knowledge base with keyword-based retrieval covering:
 
@@ -105,7 +105,7 @@ The application includes a comprehensive legal knowledge base with keyword-based
 - **Contract Formation**: Article 2 and validity requirements
 - **Commercial Practices**: Payment terms and commercial law
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### POST `/api/check`
 Analyzes contract clauses
@@ -121,13 +121,13 @@ Extracts text from PDF files
 - Accepts multipart/form-data with PDF file
 - Returns extracted text and metadata
 
-## 📱 Responsive Design
+## Responsive Design
 
 - **Desktop**: Full-featured interface with side-by-side layouts
 - **Tablet**: Optimized for medium screens
 - **Mobile**: Touch-friendly interface with stacked layouts
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 ```bash
@@ -141,7 +141,7 @@ npm run build
 npm start
 ```
 
-## 🔒 Environment Variables
+## Environment Variables
 
 | Variable | Description | Required |
 |----------|-------------|----------|
@@ -149,7 +149,7 @@ npm start
 | `AZURE_OPENAI_ENDPOINT` | Azure OpenAI endpoint URL | ✅ |
 | `AZURE_DEPLOYMENT_NAME_GPT5` | Azure OpenAI GPT deployment name | ✅
 
-## 📊 Analysis Output
+## Analysis Output
 
 The application provides structured analysis including:
 
@@ -161,7 +161,7 @@ The application provides structured analysis including:
 - **Raw JSON**: Complete analysis data for integration
 
 
-## ⚖️ Legal Disclaimer
+## Legal Disclaimer
 
 This application is for informational purposes only and does not constitute legal advice. Always consult with qualified legal professionals for official legal guidance regarding Moroccan law and contract compliance.
 
